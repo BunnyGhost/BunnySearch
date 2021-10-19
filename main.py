@@ -7,9 +7,9 @@ while True:
     █       █
     █████████
     █▄█████▄█
-    █▼▼▼▼▼█
+    █▼▼▼▼▼▼██
        Bunny Ghost
-    █▲▲▲▲▲█
+    █▲▲▲▲▲▲██
     █████████''')
 
     itens = ['Port Scanner', 'Brute force', 'Varredura de rede', 'Locaizador de ip', 'Sair']
