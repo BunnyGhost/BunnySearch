@@ -25,7 +25,7 @@ while True:
         Brute_force.brute()
         clear()
     elif escolha == '3':
-        Varredura_de_rede()
+        Varredura_de_rede.var()
         clear()
     elif escolha == '4':
         Localizador_ip.ip()
