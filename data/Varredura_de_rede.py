@@ -40,6 +40,7 @@ def var():
 
 
     def main():
+        from time import sleep
         ip_inicial = input("Digite o IP inicial (completo): ")
         ip_final = input("Digite o IP final (apenas o último octeto. Ex: 254): ")
 
@@ -55,9 +56,6 @@ def var():
             print("PC ONLINE >> IP=%s - MAC=%s" % (pc[0], pc[1]))
 
         print("\nExistem %s dispositivos online neste momento\n\n" % len(scan.ips_online))
+        sleep(3)
 
-        return 0
-
-
-    if __name__ == '__main__':
-        main()
+    main()
