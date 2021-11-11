@@ -3,6 +3,7 @@ from time import sleep
 
 def clear(): system('clear')
 while True:
+clear()
     print('''Bunny Search
     █       █
     █████████
